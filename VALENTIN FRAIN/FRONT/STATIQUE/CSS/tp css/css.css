@@ -1,0 +1,91 @@
+@media all and (max-width:768px) {
+    .lien {
+      display: flex;
+      flex-direction: column;
+    }
+}
+.lien {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: 12px solid black;
+    font-size: 13px; 
+    justify-content: left;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-block-end: inherit;
+}
+header{
+    display: inline-flex;
+}
+
+.span1 {
+    font-size: 28px;
+    margin-top: 14px;
+    position: relative; left: 120%;
+}
+
+a:visited {
+    color: white;
+}
+h2 {
+    font-size: 17px;
+}
+p {
+    font-size: 14px;
+    width: 700px;
+}
+
+h1 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 5px;
+}
+.span2 {
+    background-color: rgb(206, 201, 201);
+    padding-bottom: 363px;
+    padding-top: 0px;
+    padding-right: 225px;
+    margin-right: 00px;
+    float: right;
+}
+
+html {
+    margin : 10px auto;
+    width : 1126px;
+}
+
+.image2 {
+    position: relative; left: 2%;
+  
+}
+
+@media all and (max-width:768px) {
+
+.span2{display: none;}
+}
+html {
+    font-size: 100%;
+}
+@media all and (max-width: 768px) {
+    body, p, h1, h2, .span1, .lien {
+         font-size: 87%;
+   }
+}
+
+@media all and (max-width: 768px) {
+    .image, .image2
+{
+     max-width: 100%;
+     height: auto;
+    }
+}
+@media all and (max-width: 768px) {
+    html {
+        margin : 10px auto;
+        width : 768px;
+    }
+}
