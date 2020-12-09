@@ -1,0 +1,204 @@
+body {
+  background-color: antiquewhite;
+
+}
+
+span {
+  font-size: xx-large;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img2{
+  margin-top: 30%;
+  margin-left: 20%;
+}
+/* Navbar du haut */
+
+#contient > #divnav > #nav1 {
+  background-color: brown;
+}
+
+/* PAGE TABLEAU */
+
+table {
+    
+    font-size: 96%;
+
+    
+   
+}
+#debutTable > #barre > img {
+  margin-left: 3px;
+}
+
+#debutTable > #barre {
+  background-color: grey; 
+  color: blue;
+}
+
+#div1 > #div2 > #lien1 {
+  margin-right: 2em;
+}
+#div1 {
+  border: 5px solid black; 
+  border-radius: 50px; 
+  background-color: white;
+}
+#catego > #ligne >#titreboutique{
+  font-size: 90px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#div1 > #div2 > #lien2 {
+  margin-right: 2em;
+}
+
+
+#div1 > #div2 > #lien4 {
+  margin-right: 2em; 
+  margin-top: 2em;
+}
+
+#div1 > #div2 > #lien5 {
+  margin-right: 2em; 
+  margin-top: 2em;
+}
+
+#div1 > #div2 > #lien6 {
+  margin-top: 2em;
+}
+
+#div1 > #div2 > #lien1 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 30px; 
+  font-size: 30px;
+}
+
+
+#div1 > #div2 > #lien2 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 35px; 
+  font-size: 30px;
+}
+
+#div1 > #div2 > #lien3 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 30px; 
+  font-size: 30px;
+}
+
+#div1 > #div2 > #lien4 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 30px; 
+  font-size: 30px;
+}
+
+#div1 > #div2 > #lien5 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 40px; 
+  font-size: 30px;
+}
+
+#div1 > #div2 > #lien6 > div > span {
+  color: black; 
+  text-decoration: none; 
+  margin-left: 40px; 
+  font-size: 30px;
+}
+
+#div1 > #div2 > #lien1 > div > img {
+  margin-top: 2em; 
+  padding-left: 30px;
+}
+
+#div1 > #div2 > #lien2 > div > img {
+  margin-top: 2em; 
+  padding-left: 30px;
+}
+
+#div1 > #div2 > #lien3 > div > img {
+  margin-top: 2em;
+}
+
+#div1 > #div2 > #lien4 > div > img {
+  margin-top: 2em; 
+  padding-left: 30px;
+}
+
+#div1 > #div2 > #lien5 > div > img {
+  margin-top: 2em; 
+  padding-left: 30px;
+}
+
+#div1 > #div2 > #lien6 > div > img {
+  margin-top: 2em; 
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+  margin-bottom: 0%;
+}
+
+table > thead > tr > th{
+    border:1px solid black!important;
+}
+table > tbody > tr > td{
+    border:1px solid black!important;
+    
+}
+a 
+{
+  color: red;
+  text-decoration: red;
+}
+td {
+  
+    text-align: center;
+    
+}
+.bg-warning{
+    text-decoration: underline;
+    font-weight: 800;
+    color: red;
+}
+
+
+#boutique {
+  border: 2px solid black ;
+}
+
+
+#catego {
+text-align: center;
+}
+
+@font-face {
+  font-family: 'quadranta';
+  src:
+       url('quadranta.otf') format('truetype');
+       
+       
+  
+  font-style: normal;
+  }
+  
