@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mer. 09 déc. 2020 à 12:09
+-- Généré le : ven. 11 déc. 2020 à 09:18
 -- Version du serveur :  5.7.31
 -- Version de PHP : 7.3.21
 
@@ -22,6 +22,27 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `jarditoueval` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `jarditoueval`;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `membre`
+--
+
+DROP TABLE IF EXISTS `membre`;
+CREATE TABLE IF NOT EXISTS `membre` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `logine` text NOT NULL,
+  `pass` text NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Déchargement des données de la table `membre`
+--
+
+INSERT INTO `membre` (`ID`, `logine`, `pass`) VALUES
+(1, 'tutu', 'tata');
 
 -- --------------------------------------------------------
 
